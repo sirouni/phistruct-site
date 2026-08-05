@@ -3,8 +3,11 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>PhiStruct</title>
-<meta name="description" content="Build real ball-and-strut geometry by touch. Offline, one-time purchase, no account." />
+<title>PhiStruct — Build real geometry by touch</title>
+<meta name="description" content="Build ball-and-strut polyhedra by touch on iPhone. Collision-proof, offline, one-time purchase, no account." />
+<meta property="og:title" content="PhiStruct — Build real geometry by touch" />
+<meta property="og:description" content="Collision-proof ball-and-strut polyhedra on iPhone. Offline, one-time purchase, no account." />
+<meta property="og:type" content="website" />
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -14,32 +17,55 @@
     <a href="./">PhiStruct</a>
   </header>
 
-  <h1>Build real geometry with your hands.</h1>
-  <p class="lede muted">
-    Assemble ball-and-strut models by touch — tap a hole, place a strut —
-    with a guarantee that matters: struts never pass through each other.
-  </p>
+  <section class="hero">
+    <p class="tagline">Build. Lock. Take it with you.</p>
+    <h1>Build real geometry with your hands.</h1>
+    <p class="lede muted">
+      Tap a hole, place a strut. Struts never pass through each other —
+      so if it builds in the app, it builds on your desk.
+    </p>
+    <ul class="badges" aria-label="Highlights">
+      <li>Collision-proof</li>
+      <li>Fully offline</li>
+      <li>One-time purchase</li>
+      <li>No account, no ads</li>
+    </ul>
+    <p class="cta-row">
+      <a class="store-btn" href="https://apps.apple.com/app/id6794185906" rel="noopener">
+        <span class="store-btn-kicker">Download on the</span>
+        <span class="store-btn-label">App Store</span>
+      </a>
+    </p>
+  </section>
 
   <section class="shots" aria-label="App screenshots">
     <figure class="shot">
       <img src="screenshots/01-scratch.jpg" width="540" height="1174" alt="Empty connector ball with glowing holes ready for the first strut" loading="eager" />
-      <figcaption>Build from a single ball</figcaption>
+      <figcaption>Construct geometry from a single node</figcaption>
     </figure>
     <figure class="shot">
       <img src="screenshots/02-library.jpg" width="540" height="1174" alt="Model Library open on Stars and Golden Geometry, showing Quasicrystal Star" loading="lazy" />
-      <figcaption>66 curated library models</figcaption>
+      <figcaption>66 polyhedra to construct</figcaption>
     </figure>
     <figure class="shot">
-      <img src="screenshots/03-guided.jpg" width="540" height="1174" alt="Guided icosahedron build mid-way with next hole highlighted" loading="lazy" />
-      <figcaption>Step-by-step guided builds</figcaption>
+      <img src="screenshots/03-rainbow.jpg" width="540" height="1174" alt="Rainbow Core from above showing blue, green, yellow, and red struts" loading="lazy" />
+      <figcaption>Four shape-coded strut systems</figcaption>
     </figure>
     <figure class="shot">
-      <img src="screenshots/04-quasicrystal-star.jpg" width="540" height="1174" alt="Completed Quasicrystal Star model in red struts" loading="lazy" />
-      <figcaption>Quasicrystal Star</figcaption>
+      <img src="screenshots/04-strut-menu.jpg" width="540" height="1174" alt="Strut color picker open over an icosahedron" loading="lazy" />
+      <figcaption>Direction and length before each edge</figcaption>
     </figure>
     <figure class="shot">
-      <img src="screenshots/05-export.jpg" width="540" height="1174" alt="Export sheet for PNG, GLB, and STL over Quasicrystal Star" loading="lazy" />
-      <figcaption>Export PNG, GLB, or STL</figcaption>
+      <img src="screenshots/06-step-by-step.jpg" width="540" height="1174" alt="Guided cuboctahedron build in green with the next hole highlighted" loading="lazy" />
+      <figcaption>Guided polyhedron construction</figcaption>
+    </figure>
+    <figure class="shot">
+      <img src="screenshots/07-free-build.jpg" width="540" height="1174" alt="Free build yellow parallelepiped against a translucent reference ghost" loading="lazy" />
+      <figcaption>Freehand build against a ghost solid</figcaption>
+    </figure>
+    <figure class="shot">
+      <img src="screenshots/05-export.jpg" width="540" height="1174" alt="Export sheet for PNG, GLB, and STL" loading="lazy" />
+      <figcaption>Export for print or Blender</figcaption>
     </figure>
   </section>
 
@@ -51,7 +77,7 @@
       controls
       playsinline
       preload="metadata"
-      poster="screenshots/03-guided.jpg"
+      poster="screenshots/06-step-by-step.jpg"
     >
       <source src="video/guided-icosahedron.mp4" type="video/mp4" />
       <source src="video/guided-icosahedron.webm" type="video/webm" />
