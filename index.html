@@ -11,56 +11,92 @@
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="wrap">
-  <header class="site">
-    <span class="dot"></span>
-    <a href="./">PhiStruct</a>
-  </header>
+
+<header class="site">
+  <a class="brand" href="./">
+    <span class="brand-dot"></span>
+    <span>PhiStruct</span>
+  </a>
+  <nav class="nav">
+    <a href="#how">How it works</a>
+    <a href="#shots">Screens</a>
+    <a href="https://apps.apple.com/app/id6794185906" rel="noopener" class="nav-cta">App Store</a>
+  </nav>
+</header>
+
+<main>
 
   <section class="hero">
-    <p class="tagline">Build. Lock. Take it with you.</p>
-    <h1>Build real geometry with your hands.</h1>
-    <p class="lede muted">
-      Tap a hole, place a strut. Struts never pass through each other —
-      so if it builds in the app, it builds on your desk.
-    </p>
-    <ul class="badges" aria-label="Highlights">
-      <li>Collision-proof</li>
-      <li>Fully offline</li>
-      <li>One-time purchase</li>
-      <li>No account, no ads</li>
-    </ul>
-    <p class="cta-row">
-      <a class="store-btn" href="https://apps.apple.com/app/id6794185906" rel="noopener">
-        <span class="store-btn-kicker">Download on the</span>
-        <span class="store-btn-label">App Store</span>
-      </a>
-    </p>
+    <div class="hero-copy">
+      <p class="tagline">Build. Lock. Take it with you.</p>
+      <h1>Build real geometry with your hands.</h1>
+      <p class="lede">
+        Tap a hole, place a strut. Struts never pass through each other —
+        so if it builds in the app, it builds on your desk.
+      </p>
+      <ul class="badges" aria-label="Highlights">
+        <li>Collision-proof</li>
+        <li>Fully offline</li>
+        <li>One-time purchase</li>
+        <li>No account, no ads</li>
+      </ul>
+      <p class="cta-row">
+        <a class="store-btn" href="https://apps.apple.com/app/id6794185906" rel="noopener">
+          <span class="store-btn-kicker">Download on the</span>
+          <span class="store-btn-label">App Store</span>
+        </a>
+      </p>
+    </div>
+    <div class="hero-figure">
+      <figure class="phone">
+        <img src="screenshots/03-rainbow.jpg" alt="Rainbow Core model — blue, green, yellow, and red struts" loading="eager" />
+      </figure>
+      <figure class="phone phone-back">
+        <img src="screenshots/06-step-by-step.jpg" alt="Guided build with the next hole highlighted" loading="eager" />
+      </figure>
+    </div>
   </section>
 
-  <section class="shots" aria-label="App screenshots">
+  <section class="features" id="how" aria-label="What you can do">
+    <h2>How it works</h2>
+    <div class="feature-grid">
+      <article class="feature">
+        <span class="feature-num">1</span>
+        <h3>Tap a hole, place a strut</h3>
+        <p>Start from a single ball and build up. Ghost pegs show exactly where the next strut can lock.</p>
+      </article>
+      <article class="feature">
+        <span class="feature-num">2</span>
+        <h3>Guided builds or freehand</h3>
+        <p>Step through 66 curated polyhedra hole-by-hole, or free build against a translucent reference ghost.</p>
+      </article>
+      <article class="feature">
+        <span class="feature-num">3</span>
+        <h3>Take it with you</h3>
+        <p>Export PNG, full-color GLB, or print-ready STL. Parts list included — colors, lengths, counts.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="shots" id="shots" aria-label="App screenshots">
     <figure class="shot">
-      <img src="screenshots/01-scratch.jpg" width="540" height="1174" alt="Empty connector ball with glowing holes ready for the first strut" loading="eager" />
-      <figcaption>Construct geometry from a single node</figcaption>
+      <img src="screenshots/01-scratch.jpg" width="540" height="1174" alt="Empty connector ball with glowing holes ready for the first strut" loading="lazy" />
+      <figcaption>Construct from a single node</figcaption>
     </figure>
     <figure class="shot">
-      <img src="screenshots/02-library.jpg" width="540" height="1174" alt="Model Library open on Stars and Golden Geometry, showing Quasicrystal Star" loading="lazy" />
+      <img src="screenshots/02-library.jpg" width="540" height="1174" alt="Model Library showing Quasicrystal Star" loading="lazy" />
       <figcaption>66 polyhedra to construct</figcaption>
     </figure>
     <figure class="shot">
-      <img src="screenshots/03-rainbow.jpg" width="540" height="1174" alt="Rainbow Core from above showing blue, green, yellow, and red struts" loading="lazy" />
-      <figcaption>Four shape-coded strut systems</figcaption>
-    </figure>
-    <figure class="shot">
-      <img src="screenshots/04-strut-menu.jpg" width="540" height="1174" alt="Strut color picker open over an icosahedron" loading="lazy" />
+      <img src="screenshots/04-strut-menu.jpg" width="540" height="1174" alt="Strut color picker over an icosahedron" loading="lazy" />
       <figcaption>Direction and length before each edge</figcaption>
     </figure>
     <figure class="shot">
-      <img src="screenshots/06-step-by-step.jpg" width="540" height="1174" alt="Guided cuboctahedron build in green with the next hole highlighted" loading="lazy" />
+      <img src="screenshots/06-step-by-step.jpg" width="540" height="1174" alt="Guided cuboctahedron build in green" loading="lazy" />
       <figcaption>Guided polyhedron construction</figcaption>
     </figure>
     <figure class="shot">
-      <img src="screenshots/07-free-build.jpg" width="540" height="1174" alt="Free build yellow parallelepiped against a translucent reference ghost" loading="lazy" />
+      <img src="screenshots/07-free-build.jpg" width="540" height="1174" alt="Free build with a translucent reference ghost" loading="lazy" />
       <figcaption>Freehand build against a ghost solid</figcaption>
     </figure>
     <figure class="shot">
@@ -70,8 +106,10 @@
   </section>
 
   <section class="video-block" aria-label="Guided build demo">
-    <h2>Watch a guided build</h2>
-    <p class="muted">Icosahedron — step through every strut, hole by hole.</p>
+    <div class="video-copy">
+      <h2>Watch a guided build</h2>
+      <p class="muted">Icosahedron — step through every strut, hole by hole.</p>
+    </div>
     <video
       class="demo-video"
       controls
@@ -84,20 +122,27 @@
     </video>
   </section>
 
-  <div class="card">
-    <strong>Offline, one-time purchase, no account.</strong>
-    <p class="muted" style="margin: 6px 0 0;">
-      No ads, no subscriptions, no tracking. Your projects stay on your device.
-    </p>
-  </div>
+  <section class="promise" aria-label="Purchase promise">
+    <div>
+      <strong>Offline, one-time purchase, no account.</strong>
+      <p>No ads, no subscriptions, no tracking. Your projects stay on your device.</p>
+    </div>
+    <a class="store-btn store-btn-light" href="https://apps.apple.com/app/id6794185906" rel="noopener">
+      <span class="store-btn-kicker">Download on the</span>
+      <span class="store-btn-label">App Store</span>
+    </a>
+  </section>
 
-  <div class="nav">
+</main>
+
+<footer class="site-footer">
+  <div class="foot-nav">
     <a href="./privacy.html">Privacy Policy</a>
     <a href="./support.html">Support</a>
     <a href="https://github.com/sirouni/phistruct-site/issues/new">Report an issue</a>
   </div>
+  <p>&copy; 2026 PhiStruct. All rights reserved.</p>
+</footer>
 
-  <footer>&copy; 2026 PhiStruct. All rights reserved.</footer>
-</div>
 </body>
 </html>
