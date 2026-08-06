@@ -1,0 +1,21 @@
+{
+  "name": "PhiStruct",
+  "short_name": "PhiStruct",
+  "description": "Build real ball-and-strut polyhedra by touch on iPhone.",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#090b10",
+  "theme_color": "#090b10",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

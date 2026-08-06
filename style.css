@@ -28,6 +28,7 @@ body {
 }
 
 img { display: block; max-width: 100%; }
+picture { display: contents; }
 
 h1, h2, h3 { line-height: 1.15; letter-spacing: -0.015em; margin: 0; }
 
@@ -62,6 +63,13 @@ a { color: var(--accent); }
   border-radius: 50%;
   background: var(--accent);
   box-shadow: 0 0 0 5px rgba(91, 140, 255, 0.16);
+}
+
+.brand-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 7px;
+  display: block;
 }
 
 .nav {
