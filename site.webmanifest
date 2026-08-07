@@ -4,8 +4,8 @@
   "description": "Build real ball-and-strut polyhedra by touch on iPhone.",
   "start_url": "./",
   "display": "browser",
-  "background_color": "#090b10",
-  "theme_color": "#090b10",
+  "background_color": "#a9c8d8",
+  "theme_color": "#a9c8d8",
   "icons": [
     {
       "src": "icon-192.png",
