@@ -308,10 +308,17 @@ a { color: var(--accent); }
 .video-copy .muted { color: var(--muted); margin: 0; }
 
 .demo-video {
+  /* Capture is 780×1688 (≈390×844 @2x). Never set HTML height — browsers
+     treat it as a CSS height while CSS width shrinks, stretching the box and
+     letterboxing with a black void under the picture. */
+  display: block;
   width: min(300px, 80vw);
+  height: auto;
+  aspect-ratio: 780 / 1688;
+  object-fit: cover;
   border-radius: 22px;
   border: 1px solid var(--line);
-  background: #000;
+  background: #a9c8d8;
   box-shadow: 0 24px 56px rgba(0, 0, 0, 0.5);
 }
 
