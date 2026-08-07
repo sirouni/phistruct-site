@@ -239,11 +239,9 @@ a { color: var(--accent); }
   width: min(300px, 62vw);
   border-radius: 34px;
   overflow: hidden;
-  border: 1px solid rgba(21, 32, 43, 0.16);
+  border: 1px solid rgba(21, 32, 43, 0.14);
   background: var(--stage);
-  box-shadow:
-    0 28px 60px rgba(21, 32, 43, 0.18),
-    0 0 0 10px rgba(255, 255, 255, 0.35);
+  box-shadow: 0 28px 60px rgba(21, 32, 43, 0.16);
   transform: rotate(-3.5deg);
   animation: phone-settle 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
