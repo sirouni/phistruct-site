@@ -1,9 +1,9 @@
 /* Hallmark · pre-emit critique: P4 H4 E4 S4 R4 V3
-   Light slate stage — matches in-app #a9c8d8 desk, not a dark-tool template. */
+   Light slate stage — matches in-app #9fbecb desk, not a dark-tool template. */
 :root {
   color-scheme: light;
-  --stage: #a9c8d8;
-  --bg: #b7cdd9;
+  --stage: #9fbecb;
+  --bg: #b3cdd6;
   --paper: #eef3f6;
   --card: rgba(255, 255, 255, 0.62);
   --line: rgba(21, 32, 43, 0.12);
@@ -32,7 +32,7 @@ body {
   background:
     radial-gradient(900px 520px at 88% -8%, rgba(255, 255, 255, 0.55), transparent 58%),
     radial-gradient(700px 480px at -5% 18%, rgba(224, 160, 32, 0.12), transparent 52%),
-    linear-gradient(165deg, #c4dae6 0%, var(--stage) 42%, #9ebccc 100%);
+    linear-gradient(165deg, #c5dce6 0%, var(--stage) 42%, #8aafc0 100%);
   background-attachment: fixed;
   color: var(--ink);
   font-family: var(--font-body);
