@@ -3,11 +3,10 @@
  * Umami Cloud, cookie-free. Pageviews plus App Store CTA clicks
  * (`data-umami-event="app-store"`). No advertising, no cross-site id.
  *
- * After creating the site at https://cloud.umami.is (Hobby is enough),
- * paste the Website ID below and redeploy.
+ * Tracking ID lives in umamiWebsiteId below (Umami Cloud, site phistruct.app).
  */
 window.PHI_ANALYTICS = {
-  umamiWebsiteId: "",
+  umamiWebsiteId: "63cbfd69-24d9-45ca-bb10-ac5fb69b810d",
 };
 
 (function () {
