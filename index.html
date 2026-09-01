@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>PhiStruct — Build 3D Polyhedra by Touch on iPhone</title>
-<meta name="description" content="Tap a hole, place a strut. Collision-proof ball-and-strut polyhedra, 134 guided builds, PNG/GLB/STL/vZome export. Offline, one-time purchase, no account." />
+<meta name="description" content="Tap a hole, place a strut. Collision-proof ball-and-strut polyhedra, 134 guided builds, AR at room scale, PNG/GLB/STL/vZome export. Offline, one-time purchase, no account." />
 <meta name="theme-color" content="#9fbecb" />
 <link rel="canonical" href="https://sirouni.github.io/phistruct-site/" />
 
@@ -18,7 +18,7 @@
 
 <meta property="og:site_name" content="PhiStruct" />
 <meta property="og:title" content="PhiStruct — Build real geometry by touch" />
-<meta property="og:description" content="Collision-proof ball-and-strut polyhedra on iPhone. 134 guided builds, STL export, fully offline." />
+<meta property="og:description" content="Collision-proof ball-and-strut polyhedra on iPhone. 134 guided builds, AR at room scale, STL export, fully offline." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://sirouni.github.io/phistruct-site/" />
 <meta property="og:image" content="https://sirouni.github.io/phistruct-site/og-image.jpg" />
@@ -26,11 +26,11 @@
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="PhiStruct — Build real geometry by touch" />
-<meta name="twitter:description" content="Collision-proof ball-and-strut polyhedra on iPhone. 134 guided builds, STL export, fully offline." />
+<meta name="twitter:description" content="Collision-proof ball-and-strut polyhedra on iPhone. 134 guided builds, AR at room scale, STL export, fully offline." />
 <meta name="twitter:image" content="https://sirouni.github.io/phistruct-site/og-image.jpg" />
 
-<link rel="preload" as="image" href="screenshots-webp/06-step-by-step.webp" imagesrcset="screenshots-webp/06-step-by-step.webp" type="image/webp" />
-<link rel="stylesheet" href="style.css?v=7" />
+<link rel="preload" as="image" href="screenshots-webp/01-scratch.webp" imagesrcset="screenshots-webp/01-scratch.webp" type="image/webp" />
+<link rel="stylesheet" href="style.css?v=8" />
 
 <script type="application/ld+json">
 {
@@ -41,7 +41,7 @@
       "name": "PhiStruct",
       "operatingSystem": "iOS",
       "applicationCategory": "UtilitiesApplication",
-      "description": "Touch-first ball-and-strut geometry builder. Collision-proof, 134 guided polyhedra, export PNG/GLB/STL/vZome. Fully offline, no account, one-time purchase.",
+      "description": "Touch-first ball-and-strut geometry builder. Collision-proof, 134 guided polyhedra, AR at room scale, export PNG/GLB/STL/vZome. Fully offline, no account, one-time purchase.",
       "url": "https://sirouni.github.io/phistruct-site/",
       "image": "https://sirouni.github.io/phistruct-site/og-image.jpg",
       "offers": {
@@ -59,6 +59,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes. PhiStruct runs fully offline with no account, no ads, and no tracking. Projects stay on your device unless you export them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I place a model in AR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Any finished build can be placed on a real table at room scale so you can walk around it before you export."
           }
         },
         {
@@ -101,16 +109,17 @@
 
   <section class="hero">
     <div class="hero-copy">
-      <p class="tagline">Build. Lock. Take it with you.</p>
+      <p class="tagline">Build. Lock. Set it on the table.</p>
       <h1>Build real geometry with your hands.</h1>
       <p class="lede">
         Tap a hole, place a strut. Struts never pass through each other —
-        so if it builds in the app, it builds on your desk.
+        so if it builds in the app, it builds on your desk. Then place it
+        in AR at room scale.
       </p>
       <ul class="badges" aria-label="Highlights">
         <li>Collision-proof</li>
         <li>134 guided models</li>
-        <li>Fully offline</li>
+        <li>AR at room scale</li>
         <li>One-time purchase</li>
       </ul>
       <p class="cta-row">
@@ -123,14 +132,14 @@
     <div class="hero-figure">
       <figure class="phone">
         <picture>
-          <source srcset="screenshots-webp/06-step-by-step.webp" type="image/webp" />
-          <img src="screenshots/06-step-by-step.jpg" width="540" height="1170" alt="Rainbow Core — blue, red, yellow, and green struts" loading="eager" fetchpriority="high" />
+          <source srcset="screenshots-webp/01-scratch.webp" type="image/webp" />
+          <img src="screenshots/01-scratch.jpg" width="540" height="1170" alt="Kepler star with the five strut-color picker open" loading="eager" fetchpriority="high" />
         </picture>
       </figure>
       <figure class="phone phone-back">
         <picture>
-          <source srcset="screenshots-webp/04-rainbow.webp" type="image/webp" />
-          <img src="screenshots/04-rainbow.jpg" width="540" height="1170" alt="Guided Square Pyramid with the next hole highlighted" loading="eager" fetchpriority="high" />
+          <source srcset="screenshots-webp/03-ar.webp" type="image/webp" />
+          <img src="screenshots/03-ar.jpg" width="540" height="1170" alt="A finished build placed on a real table in AR" loading="eager" fetchpriority="high" />
         </picture>
       </figure>
     </div>
@@ -151,8 +160,8 @@
       </article>
       <article class="feature">
         <span class="feature-num">3</span>
-        <h3>Take it with you</h3>
-        <p>Export PNG, full-color GLB, print-ready STL, or .vZome. Parts list included — colors, lengths, counts.</p>
+        <h3>Place it on a real table</h3>
+        <p>Preview any build in AR at room scale. Then export PNG, GLB, STL, or .vZome — plus a parts list.</p>
       </article>
     </div>
   </section>
@@ -161,7 +170,7 @@
     <figure class="shot">
       <picture>
         <source srcset="screenshots-webp/01-scratch.webp" type="image/webp" />
-        <img src="screenshots/01-scratch.jpg" width="540" height="1170" alt="Kepler star with the shape picker open" loading="lazy" />
+        <img src="screenshots/01-scratch.jpg" width="540" height="1170" alt="Kepler star with the five strut-color picker open" loading="lazy" />
       </picture>
       <figcaption>Build freely by touch</figcaption>
     </figure>
@@ -174,31 +183,31 @@
     </figure>
     <figure class="shot">
       <picture>
-        <source srcset="screenshots-webp/05-strut-menu.webp" type="image/webp" />
-        <img src="screenshots/05-strut-menu.jpg" width="540" height="1170" alt="Strut length picker — short, medium, long" loading="lazy" />
+        <source srcset="screenshots-webp/03-ar.webp" type="image/webp" />
+        <img src="screenshots/03-ar.jpg" width="540" height="1170" alt="A finished build placed on a real table in AR" loading="lazy" />
       </picture>
-      <figcaption>Short, medium, long</figcaption>
+      <figcaption>Place every model in AR</figcaption>
     </figure>
     <figure class="shot">
       <picture>
-        <source srcset="screenshots-webp/04-rainbow.webp" type="image/webp" />
-        <img src="screenshots/04-rainbow.jpg" width="540" height="1170" alt="Guided Square Pyramid with the next hole lit" loading="lazy" />
+        <source srcset="screenshots-webp/04-export.webp" type="image/webp" />
+        <img src="screenshots/04-export.jpg" width="540" height="1170" alt="Export sheet for PNG, GLB, STL, and vZome" loading="lazy" />
+      </picture>
+      <figcaption>Export PNG, GLB, STL, vZome</figcaption>
+    </figure>
+    <figure class="shot">
+      <picture>
+        <source srcset="screenshots-webp/05-rainbow.webp" type="image/webp" />
+        <img src="screenshots/05-rainbow.jpg" width="540" height="1170" alt="Guided Square Pyramid with the next hole lit" loading="lazy" />
       </picture>
       <figcaption>The next hole lights up</figcaption>
     </figure>
     <figure class="shot">
       <picture>
-        <source srcset="screenshots-webp/07-free-build.webp" type="image/webp" />
-        <img src="screenshots/07-free-build.jpg" width="540" height="1170" alt="Cube with Core — a cube, a tetra, and a core" loading="lazy" />
+        <source srcset="screenshots-webp/07-step-by-step.webp" type="image/webp" />
+        <img src="screenshots/07-step-by-step.jpg" width="540" height="1170" alt="Rainbow Core using blue, red, yellow, and green struts" loading="lazy" />
       </picture>
-      <figcaption>A cube, a tetra, a core</figcaption>
-    </figure>
-    <figure class="shot">
-      <picture>
-        <source srcset="screenshots-webp/03-export.webp" type="image/webp" />
-        <img src="screenshots/03-export.jpg" width="540" height="1170" alt="Export sheet for PNG, GLB, STL, and vZome" loading="lazy" />
-      </picture>
-      <figcaption>Export PNG, GLB, STL, vZome</figcaption>
+      <figcaption>All five strut colors</figcaption>
     </figure>
   </section>
 
