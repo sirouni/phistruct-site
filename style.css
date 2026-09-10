@@ -373,6 +373,49 @@ a { color: var(--accent); }
   text-align: center;
 }
 
+/* ---------- Mac stills ---------- */
+
+.mac-band {
+  max-width: 1180px;
+  margin: 28px auto 0;
+  padding: 8px 24px 14px;
+}
+
+.mac-band-head {
+  max-width: 38em;
+  margin-bottom: 20px;
+}
+
+.mac-band-head h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.mac-band-head p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.mac-band-head code {
+  font-size: 0.92em;
+}
+
+.shots-mac {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.shot-mac-lead {
+  grid-column: 1 / -1;
+}
+
+.shot-mac img {
+  border-radius: 14px;
+}
+
 /* ---------- video ---------- */
 
 .video-block {
@@ -569,4 +612,5 @@ a { color: var(--accent); }
   .nav { gap: 12px; font-size: 13px; }
   .hero h1 { font-size: 34px; }
   .shots { grid-template-columns: 1fr; }
+  .shots-mac { grid-template-columns: 1fr; }
 }
